@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM_DEMO</title>
+    <style>
+        div{
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid black;
+            height: 500px;
+            width: 500px;
+            padding-top: 30px;
+            padding-left: 30px;
+        }
+        h2{
+            text-align: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h2>FORM</h2>
+        <form action="div.html">
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="gender">Gender :</label><br>
+            <label for="men">Men</label>
+            <input type="radio" id="male " name="gender">
+            <label for="Female">Female :</label>
+            <input type="radio" name="gender" id="female"><br><br>
+
+            <label for="course"> Course :</label><br>
+            <label for="python">python</label>
+            <input type="checkbox" name="cou" id="course">
+
+            <label for="Mern">Mern Stack</label>
+            <input type="checkbox" name="cou" id="course"><br><br>
+
+            <label for="place">Place :</label><br>
+            <select name="place" id="place_1">
+                <option value="kannur">Kannur</option>
+                <option value="calicut">Calicut</option>
+            </select><br><br>
+
+            <label for="address">Address :</label>
+            <textarea name="address" id="address_1" rows="5" cols="20" style="vertical-align: middle;"></textarea><br><br>
+
+            <button>Submit</button>
+            
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+                border:2px solid black;
+                border-collapse: collapse;
+                width:50%;
+                height:50%;
+                background-color: yellow;
+                margin-top: auto;
+                margin-bottom: auto;
+                margin-left: auto;
+                margin-right: auto;
+                
+
+        }
+
+        th,td{
+            padding: 5px;
+            border-spacing: 30px;
+        }
+
+        .off{
+            text-align: center;
+            background-color: red;
+        }
+
+        h3{
+            text-align: center;
+        }
+
+        caption{
+            caption-side: bottom;
+            font-style: oblique;
+        }
+
+    </style>
+</head>
+<body>
+ 
+        <table>
+            <caption><b>Daily Schedule</b></caption>
+            <tr>
+                <th rowspan="2">Task</th>
+                <th colspan="7">Days of the week</th>
+                
+            </tr>
+            
+            <tr>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+                <th>Sun</th>
+            </tr>
+            
+            <tr>
+                <td>College</td>
+                <td>College</td>
+                <td>College</td>
+                <td>College</td>
+                <td>College</td>
+                <td>College</td>
+                <td colspan="2" rowspan="2" class ="off">off</td>
+               
+    
+            </tr>
+                <td>work</td>
+                <td colspan="5">subject preparation and project work</td>
+            <tr>
+    
+            <!-- <tr>
+                <td rowspan="2"></td>
+    
+            </tr> -->
+    
+            </tr>
+    
+            
+        </table>
+        
+   
+    
+
+</body>
+</html>

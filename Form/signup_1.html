@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUP</title>
+    <style>
+
+        .lab{
+            
+            text-align: right;
+            display: inline-block;
+            width: 200px;
+            padding-right: 1px;
+        }
+
+        table{
+            background-color: rgb(4, 4, 45);
+            color: blanchedalmond;
+            width: 530px;
+            height: 650px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+
+        }
+
+        .signup{
+            background-color: chocolate;
+            text-align: left;
+        }
+
+        .buttn{
+            background-color: chocolate;
+            text-align: right;
+        }
+
+       
+
+        .submit{
+            background-color: green;
+            border:none;
+            color:azure;
+            text-align: center;
+            height: 40px;
+            width: 70px;
+            /* padding: 3px 3px 3px 3px; */
+            font-size: large;
+            border-radius: 3px;
+
+        }
+
+        .cancel{
+            background-color:red;
+            border:none;
+            color:azure;
+            text-align: center;
+            height: 40px;
+            width: 70px;
+            /* padding: 3px 3px 3px 3px; */
+            font-size: large;
+            border-radius: 3px;
+            margin-right: 7px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+
+                <td colspan="2" class="signup">SignUp</td>
+
+            </tr>
+            <tr>
+                
+                <td><label for="fname" class="lab"> First Name :</label></td>
+                <td><input type="text" placeholder="Enter First Name" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td><label for="lname" class="lab">Last Name : </label></td>
+                <td><input type="text" name="" id="" placeholder="Enter Last Name" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td><label for="DOB" class="lab">Date of Birth</label></td>
+                <td><select name="date" id="date1" placeholder="date" required>
+                    <option value="" disabled selected>Date</option>
+                    <option value="" >1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                </select>
+            
+                <select name="" id="" placeholder="month" required>
+                    <option value="" disable selected>month</option>
+                    <option value="">may</option>
+                    <option value="">june</option>
+                    <option value="">july</option>
+                    <option value="">august</option>
+                    <option value="">september</option>
+                    </select>
+                <select name="" id="" required>
+                    <option value="" disabled selected>Year</option>
+                    <option value="1">1990</option>
+                    <option value="2">1991</option>
+                    <option value="3">1992</option>
+                    <option value="4">1993</option>
+                    <option value="5">1994</option>
+                    <option value="6">1995</option>
+                    <option value="7">1996</option>
+                    <option value="8">1997</option>
+                    <option value="9">1998</option>
+                    <option value="10">1999</option>
+                    <option value="11">2000</option>
+                </select></td>
+                    
+            </tr>
+
+            <tr>
+
+                <td><label for="" class="lab">Gender :</label>
+                <td><label for="male">Male</label>
+                <input type="radio" name="gender" id="male" required>
+                <label for="">Female</label>
+                <input type="radio" name="gender" id="female" required></td>
+
+            </tr>
+
+            <tr>
+                
+                <td><label for="" class="lab">Country</label></td>
+                <td><select name="" id="" required>
+                <option value="" disabled selected>Country</option>
+                <option value="">Algeria</option>
+                <option value="">India</option>
+                <option value="">Germany</option>
+                <option value="">New zealand</option>
+                <option value="">USA</option>
+                </select></td>
+        
+            </tr>
+
+            <tr>
+
+                <td><label for="email" class="lab"> E-mail</label></td>
+                <td><input type="email" placeholder="Enter E-mail" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td><label for="Phone" class="lab">Phone</label></td>
+                <td> <input type="number" placeholder="Enter Phone" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td><label for="Password" class="lab">Password</label></td>
+                <td><input type="password" placeholder="Enter Password" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td><label for="confirm " class="lab">Confirm Password</label></td>
+                <td> <input type="password" placeholder="confirm password" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td></td>
+                <td><input type="checkbox" required>
+                <label for="cb">I Agree to the Term of use</label</td>
+                
+            </tr>
+            
+            <tr>
+
+                <td  colspan="2" class="buttn">
+                    <button class="submit">Submit</button>
+                    <button class="cancel">Cancel</button>
+                </td>
+                
+            </tr>
+
+
+
+
+
+
+            
+        </table>
+    </form>
+</body>
+</html>
